@@ -1,0 +1,7 @@
+package com.kh.datePre;
+
+public class DarePre2 {
+	public static void main(String[] args) {
+		Date now = new Date();
+	}
+}

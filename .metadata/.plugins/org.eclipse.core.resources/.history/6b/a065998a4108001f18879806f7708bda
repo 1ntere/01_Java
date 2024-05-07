@@ -1,0 +1,19 @@
+package 하하;
+//2439
+import java.util.Scanner;
+
+public class Main{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int 줄 = sc.nextInt();
+		for (int N = 줄; N > 0; N--) {
+			for (int blank = N-1; blank > 0; blank--) {
+				System.out.print(" ");
+			}
+			for (int star = 1; star <= (줄+1-N); star++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+	}
+}

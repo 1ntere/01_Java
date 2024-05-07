@@ -1,0 +1,52 @@
+package com.kh.NumberSystemEx;
+
+public class 숫자시스템 {
+	public static void main(String[] args) {
+		int 숫자 = 42;
+		
+		//42라는 숫자를 2진수로 변환
+					//정수->문자열로 변환해서 모두 출력해서 보기위해 String으로 변환
+		String 이진수 = Integer.toBinaryString(숫자);
+		System.out.println(이진수);//101010
+		
+		//42라는 숫자를 8진수로 변환
+		//정수->문자열로 변환해서 모두 출력해서 보기위해 String으로 변환
+		String 팔진수 = Integer.toOctalString(숫자);
+		System.out.println(팔진수);//52
+		
+		//42라는 숫자를 2진수로 변환하고 다시 10진수로 변환
+		String 이진수2 = "101010";//42
+		int 십진수 = Integer.parseInt(이진수2, 2);
+		System.out.println(십진수);//42
+		/*
+		이진수 -> 십진수
+		이진수	1		0		1		0		1		0
+		십진수	1*2^5+	0*2^4+	1*2^3+	0*2^2+	1*2^1+	0*2^0	=
+				32+		0+		8+		0+		2+		0		=42
+		*/
+		
+		//십진수 부터는 parseInt를 사용해서 변경
+		String 팔진수2 = "52";
+		/*
+		팔진수 -> 십진수
+		팔진수	5		2
+		십진수	5*8^1+	2*8^0	=
+				40+		2		=42
+		*/
+		int 십진수2 = Integer.parseInt(팔진수2, 8);
+		System.out.println(십진수2);//42
+		
+		//십육진수를 십진수로 변환
+		String 십육진수 = "2A";//42
+		int 십진수3 = Integer.parseInt(십육진수, 16);
+		System.out.println("16진수 " + 십육진수 + "를 10진수로 바꿔라 : " + 십진수3);//42
+		/*
+		십육진수 -> 십진수
+		십육진수	2		A
+		십진수	2*16^1+	10*16^0	=
+				32+		10		=42
+		*/
+		
+		
+	}
+}

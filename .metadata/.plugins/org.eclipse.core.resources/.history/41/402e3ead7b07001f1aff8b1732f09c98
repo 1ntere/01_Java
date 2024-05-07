@@ -1,0 +1,11 @@
+package com.kh.regularEx;
+/*
+정규식(Regular Expression)
+	문자열에서 특정한 규칙이나 패턴을 찾거나 검색할 때 유용하게 사용하기 위한 표현 방법
+	
+	1. 문자
+	
+*/
+public class 정규식 {
+
+}

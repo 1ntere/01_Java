@@ -1,0 +1,82 @@
+package ncs.test8;
+
+public class User {
+//필드
+	private String id;
+	private String password;
+	private String name;
+	private int age;
+	private char gender;
+	private String phone;
+//메서드
+	//Setter
+	public void setId(String id) {
+		this.id = id;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	//Getter
+	public String getId() {
+		return id;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public char getGender() {
+		return gender;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	//생성자 (기본) -> 단축키 : ctrl + space -> enter
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	//생성자 (필수) -> 단축키 : alt + shift + s -> o
+	public User(String id, String password, String name, int age, char gender, String phone) {
+		super();
+		this.id = id;
+		this.password = password;
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+		this.phone = phone;
+	}
+	
+	//toString() -> 단축키 : alt + shift + s -> s
+	@Override
+	public String toString() {
+		return ;
+	}
+	
+	//객체를 만들 때는 메서드 안에 만들어 줘야 함
+	public static void main(String[] args) {
+		//User 객체를 담을 수 있는 배열 선언
+		User[] users = new User[3];
+		
+		//3개의 User 객체 생성해서 배열에 넣기
+		users[0] = new User("user01", "비번1", "김철수", 32, 'M', "010-1234-5678");
+	}
+	
+
+
+}

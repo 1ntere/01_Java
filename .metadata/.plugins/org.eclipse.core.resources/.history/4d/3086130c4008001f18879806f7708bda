@@ -1,0 +1,14 @@
+package гого;
+//2439
+public class Main{
+	public static void main(String[] args) {
+		int N = 5;
+		for (int blank = (100-N); blank >= 0; blank--) {
+			System.out.println(" ");
+		}
+		for (int star = 1; star <= N; star++) {
+			System.out.println("*");
+		}
+		System.out.println("");
+	}
+}

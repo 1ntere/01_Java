@@ -1,0 +1,9 @@
+package com.kh.collectionEx;
+
+public class SetPre {
+	public static void main(String[] args) {
+		//set의 경우 인터페이스이기 때문에 단독으로 사용하지 못 함
+		//Set 셋 = new Set<>(); => 불가능
+		//Set 셋 = new HashSet<>(); => 가능
+	}
+}

@@ -1,0 +1,10 @@
+package com.kh.oop.pre;
+
+public class Circle implements Shape, Drawable {
+	public double Area() {
+		System.out.println(" ");
+	}
+	public void draw() {
+		System.out.println("");
+	}
+}

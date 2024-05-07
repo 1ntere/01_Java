@@ -1,0 +1,46 @@
+package ncs4.test2;
+
+public class Fruit {
+//필드
+	String name;
+	int preice;
+	int quantity;
+//메서드
+	//Setter
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setPreice(int preice) {
+		this.preice = preice;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	//Getter
+	public String getName() {
+		return name;
+	}
+	public int getPreice() {
+		return preice;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	//기본생성자 ctrl + space
+	public Fruit() {
+		// TODO Auto-generated constructor stub
+	}
+	//필수생성자 과일명 과일가격 수량 alt+shift+s -> o
+	public Fruit(String name, int preice, int quantity) {
+		this.name = name;
+		this.preice = preice;
+		this.quantity = quantity;
+	}
+	//@Override toString alt+shift+s -> s
+	@Override
+	public String toString() {
+		return "Fruit [name=" + name + ", preice=" + preice + ", quantity=" + quantity + ", toString()="
+				+ super.toString() + "]";
+	}
+	
+}

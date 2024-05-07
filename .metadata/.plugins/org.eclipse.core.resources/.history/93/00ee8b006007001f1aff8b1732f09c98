@@ -1,0 +1,12 @@
+package com.kh.oop.pre;
+
+public class Circle implements Shape, Drawable {
+	@Override
+	public double Area() {
+		return 4.8;
+	}
+	@Override
+	public void draw() {
+		System.out.println("원을 그립니다.");
+	}
+}

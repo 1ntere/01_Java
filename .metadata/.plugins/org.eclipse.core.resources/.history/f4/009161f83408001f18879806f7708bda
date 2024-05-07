@@ -1,0 +1,20 @@
+package com.kh.goodShop;
+
+import java.util.*;
+
+public class 哪腔磐啊霸 {
+	public static void main(String[] args) {
+		Map<String, Integer> 葛电力前 = new HashMap<>();
+		
+		葛电力前.put("畴飘合", 700000);
+		葛电力前.put("单胶农啪", 20000);
+		葛电力前.put("葛聪磐", 5000);
+		葛电力前.put("付快胶", 3000);
+		葛电力前.put("虐焊靛", 2000);
+		
+		System.out.println("=== 哪腔磐 惑前 格废 ===");
+		for (Map.Entry<String, Integer> e : 葛电力前.entrySet()) {
+			System.out.println();
+		}
+	}
+}

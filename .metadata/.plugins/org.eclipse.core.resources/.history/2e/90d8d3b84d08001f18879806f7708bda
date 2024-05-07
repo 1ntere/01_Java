@@ -1,0 +1,6 @@
+package com.kh.BasicEx;
+//안쓰는 것 청소해서 정리하기
+//쓰레기 수집
+public class 가비지컬렉터 {
+
+}

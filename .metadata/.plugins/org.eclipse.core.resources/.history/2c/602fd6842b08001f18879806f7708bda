@@ -1,0 +1,8 @@
+package com.kh.sandwich;
+
+public class 샌드위치가게 {
+	public static void main(String[] args) {
+		List<String> 주문리스트 = ArrayList<>();
+		
+	}
+}

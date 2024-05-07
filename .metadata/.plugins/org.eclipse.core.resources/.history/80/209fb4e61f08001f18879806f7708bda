@@ -1,0 +1,9 @@
+package com.kh.pizzaOrder;
+
+public class PizzaOrder {
+//필드 = 전역변수
+	//각각의 멤버변수
+	private Stirng 고객명;
+	private Stirng 피자타입;
+	
+}

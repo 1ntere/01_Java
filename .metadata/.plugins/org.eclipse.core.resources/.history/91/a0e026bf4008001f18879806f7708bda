@@ -1,0 +1,15 @@
+package гого;
+//2439
+public class Main{
+	public static void main(String[] args) {
+		for (int N = 5; N > 0; N--) {
+			for (int blank = N-1; blank > 0; blank--) {
+				System.out.print(" ");
+			}
+			for (int star = 1; star <= N; star++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+	}
+}

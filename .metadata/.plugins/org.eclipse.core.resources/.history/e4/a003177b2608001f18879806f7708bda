@@ -1,0 +1,31 @@
+package com.kh.hamburger;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BurgerShop {
+	public static void main(String[] args) {
+		//ArrayList 사용 주문리스트
+		List<HamburgerOrder> 주문리스트 = new ArrayList<>();
+		
+		주문리스트.add(new HamburgerOrder("동그라미", "치즈버거"));
+		주문리스트.add(new HamburgerOrder("안세모", "베이컨버거"));
+		주문리스트.add(new HamburgerOrder("박네모", "상하이버거"));
+		주문리스트.add(new HamburgerOrder("금각진", "치킨버거"));
+		주문리스트.add(new HamburgerOrder("동그라미", "빅맥"));
+		
+		//메뉴 모두 출력
+		System.out.println(주문리스트);
+			//[HamburgerOrder [고객명=동그라미, 버거타입=치즈버거], 
+			//HamburgerOrder [고객명=안세모, 버거타입=베이컨버거], 
+			//HamburgerOrder [고객명=박네모, 버거타입=상하이버거], 
+			//HamburgerOrder [고객명=금각진, 버거타입=치킨버거], 
+			//HamburgerOrder [고객명=동그라미, 버거타입=빅맥]]
+		
+		//for-each문 - 메뉴 1개씩 출력
+		for (HamburgerOrder 주문 : 주문리스트 ) {
+			System.out.println();
+		}
+
+	}
+}

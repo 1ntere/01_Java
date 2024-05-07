@@ -1,0 +1,7 @@
+package ncs4.test2;
+
+public class PropTest {
+	//파일저장
+	public static void fileSave(Properties p);
+	
+}

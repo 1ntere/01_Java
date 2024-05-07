@@ -1,0 +1,8 @@
+package dom.kh.test.main.oop;
+
+//parent : 부모
+public class Parent {
+//필드
+	int 부모변수;
+	
+}

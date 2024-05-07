@@ -1,0 +1,14 @@
+package com.kh.PropertiesPre;
+
+import java.util.Properties;
+
+public class UserSetting {
+	public static void main(String[] args) {
+		//Properties 객체와 인스턴스 생성 = setting
+		Properties setting = new Properties();
+		
+		setting.setProperty("name", "john");
+	}
+	
+	
+}

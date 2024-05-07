@@ -1,0 +1,13 @@
+package com.kh.OopEx;
+
+/*
+super()와 super.
+	부모클래스를 가리키거나, 부모클래스의 생성자를 호출하는데 사용
+
+super()			변수명 호출이 아니라 부모클래스에서 기본 생성자를 호출
+super(매개변수)	필수 생성자 또한 호출이 가능
+
+*/
+public class Super {
+
+}

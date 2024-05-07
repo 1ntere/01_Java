@@ -1,0 +1,16 @@
+package com.kh.pizzaOrder;
+
+public class PizzaShop {
+	public static void main(String[] args) {
+		//주문 목록을 지정할 ArrayList 주문리스트
+		ArrayList<String, String> 주문리스트 = new ArrayList<>();
+		
+		//HashSet 사용해서 중복 주문 방지하기 위한 set 중복주문방지
+		
+		//PizzaOrder를 사용해서 주문을 추가함
+		
+		//toString() - 주문한 내용 전체보기
+		
+		//중복된 주문 정보 제거한 뒤 출력
+	}
+}

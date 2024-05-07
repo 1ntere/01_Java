@@ -1,0 +1,27 @@
+package com.kh.PropertiesPre;
+
+import java.util.*;
+
+public class UserSetting {
+	public static void main(String[] args) {
+		//Properties 객체와 인스턴스 생성 = setting
+		Properties setting = new Properties();
+		
+		setting.setProperty("name", "john");
+		setting.setProperty("age", "17");
+		setting.setProperty("city", "seoul");
+		
+		String 도시조회 = setting.getProperty("city");
+		System.out.println(도시조회);
+		
+		for (Map.Entry<Object, Object> e : setting.entrySet()) 
+		{
+			System.out.println("=== 출력 ===");
+			Object key = e.getKey();
+			Object value = e.getValue();
+			System.out.println(key + " : " + value);
+		}
+	}
+	
+	
+}

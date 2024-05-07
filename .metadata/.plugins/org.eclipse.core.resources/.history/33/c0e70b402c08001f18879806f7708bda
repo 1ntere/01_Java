@@ -1,0 +1,24 @@
+package com.kh.sandwich;
+
+import java.util.*;
+
+public class 샌드위치가게 {
+	public static void main(String[] args) {
+		//ArrayList 주문리스트
+		List<샌드위치> 주문리스트 = new ArrayList<>();
+		
+		//추가하기
+		주문리스트.add(new 샌드위치("김하나", "BLT"));
+		주문리스트.add(new 샌드위치("이둘", "터키"));
+		주문리스트.add(new 샌드위치("김하나", "치킨"));
+		주문리스트.add(new 샌드위치("이셋", "에그마요"));
+		주문리스트.add(new 샌드위치("김하나", "베지터블"));
+		
+		//HashSet 고객명
+		Set<String> 고객명 = new HashSet<>();
+		
+		//ArrayList 중복제거리스트
+		ArrayList<String> 중복제거리스트 = new ArrayList<>();
+		
+	}
+}

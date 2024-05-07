@@ -1,0 +1,34 @@
+package pre.propertiesEx2;
+
+import java.io.FileOutputStream;
+import java.util.Properties;
+
+public class PropTest {
+	//fileSave	drama.xml
+	public static void fileSave(Properties p) {
+		p.setProperty("1", "순풍산부인과,1998,682");
+		p.setProperty("2", "똑바로살아라,2002,239");
+		p.setProperty("3", "눈물의여왕,2024,16");
+		p.setProperty("4", "아내의유혹,2008,129");
+		//Properties xml파일로 저장
+			//xml : 텍스트 기반의 문서로 웹에서 읽기 편하도록 < > 규칙을 지정해서 작성하는 공간
+		try {
+			FileOutputStream fos = new FileOutputStream("drama.xml");
+			p.storeToXML(fos, null);
+			fos.close();
+			System.out.println("데이터가 drama.xml 파일에 저장되었습니다.");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public static void fileOpen(Properties p) {
+		FileInputStream fis = new FileInputStream("drama.xml")
+	}
+	
+	public static void main(String[] args) {
+		Properties p = new Properties();
+		fileSave(p);
+	}
+}

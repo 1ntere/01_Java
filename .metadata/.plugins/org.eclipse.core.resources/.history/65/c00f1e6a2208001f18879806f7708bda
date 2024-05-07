@@ -1,0 +1,30 @@
+package com.kh.pizzaOrder;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class PizzaShop {
+	public static void main(String[] args) {
+		PizzaOrder po = new PizzaOrder();
+		
+		//주문 목록을 지정할 ArrayList 주문리스트
+		ArrayList<String> 고객리스트 = new ArrayList<>(Arrays.asList("고영희", "박철진", "안영식", "고영희", "박철진"));
+		고객리스트.add("고영희");
+		고객리스트.add("박철진");
+		고객리스트.add("안영식");
+		고객리스트.add("고영희");
+		고객리스트.add("고영희");
+		
+		//HashSet 사용해서 중복 주문 방지하기 위한 set 중복주문방지
+		Set<String> 중복주문방지 = new HashSet<>();
+		
+		//PizzaOrder를 사용해서 주문을 추가함
+		po.PizzaOrder("고영희", "페페로니");
+		
+		//toString() - 주문한 내용 전체보기
+		
+		//중복된 주문 정보 제거한 뒤 출력
+	}
+}

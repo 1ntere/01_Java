@@ -1,0 +1,28 @@
+package com.kh.collectionEx;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapPre {
+	public static void main(String[] args) {
+		//Map 또한 Set과 마찬가지로 인터페이스 이기 때문에
+		//인스턴스 느낌으로 사용하려면
+		//Map<String, Integer> map = new HashMap<>();과 같이 사용해야 함
+		
+		Map<String, Integer> map = new HashMap<>();
+		
+		map.put("apple", 2000);
+		map.put("banana", 3000);
+		map.put("cherry", 1000);
+		System.out.println(map);//{banana=3000, apple=2000, cherry=1000}
+			//순서가 보장되지 않음
+		
+		//주의!!
+		//key가 같으면 값이 대체된다
+		map.put("banana", 500);
+		System.out.println(map);//{banana=500, apple=2000, cherry=1000}
+		
+		map.put("banana", 1000);
+		System.out.println(map);//{banana=1000, apple=2000, cherry=1000}
+	}
+}

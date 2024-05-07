@@ -1,0 +1,12 @@
+package pre.propertiesEx2;
+
+public class PropTest {
+	//fileSave	drama.xml
+	public static void fileSave(Properties p) {
+		
+	}
+	//1		순풍산부인과 1998 682
+	//2		똑바로살아라 2002 239
+	//3		눈물의여왕 2024 16
+	//4		아내의유혹 2008 129
+}

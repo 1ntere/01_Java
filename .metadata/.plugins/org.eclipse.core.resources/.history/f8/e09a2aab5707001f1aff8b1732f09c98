@@ -1,0 +1,6 @@
+package dom.kh.test.main.oop;
+//extends - 자식클래스로 부모클래스를 상속
+//인터페이스가 아니라 클래스를 상속 받을 때는 하나 밖에 상속받지 못함
+public class Child {
+
+}

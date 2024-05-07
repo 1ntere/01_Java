@@ -1,0 +1,11 @@
+package ncs.test13;
+
+import java.util.*;
+
+public class MapTest {
+	public static void main(String[] args) {
+		Map<String, Inventory> inventoryMap = new HashMap<>();
+		
+		//상품 정보 String으로 어떤 핸드폰인지 작성
+	}
+}

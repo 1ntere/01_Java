@@ -1,0 +1,22 @@
+package com.kh.FileEx;
+
+import java.io.File;
+
+//단축키 - 줄바꿈 : ctrl + shift + f
+public class FileEx {
+	public static void main(String[] args) {
+		//파일이 존재하는지 확인
+		//파일 만들고 글 작성하기
+		String 파일이름 = "example.txt";
+		
+		File file = new File(파일이름);
+		
+		//파일이 존재하는지 확인
+		if(file.exists() ) {
+			System.out.println("파일이 이미 존재합니다.");
+		} else {
+			file.createNewFile();
+			System.out.println("파일을 생성했습니다.");
+		}
+	}
+}

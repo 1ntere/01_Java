@@ -1,0 +1,18 @@
+package com.kh.datePre;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DarePre2 {
+	public static void main(String[] args) {
+		Date now = new Date();
+		//날짜 형식을 0000년 00월 00일
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd 일");
+		
+		//날짜를 문자열로 형식
+		String 날짜 = "2024-05-03";
+		
+		//출력
+		System.out.println(sdf.format(날짜));
+	}
+}

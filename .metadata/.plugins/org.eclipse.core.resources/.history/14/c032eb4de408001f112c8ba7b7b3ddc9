@@ -1,0 +1,9 @@
+package com.kh.collectionEx;
+/*
+Object 객체 자체를 만들 때 가장 기본으로 장착되어 있기 때문에
+모든 클래스는 Object를 상속받은 상태
+
+*/
+public class Object {
+
+}

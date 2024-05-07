@@ -1,0 +1,6 @@
+package dom.kh.test.main.oop;
+
+//동물 하나만 상속 implements Animal
+public class Dog implements Animal{
+	
+}

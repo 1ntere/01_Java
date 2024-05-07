@@ -1,0 +1,9 @@
+package com.kh.goodShop;
+
+import java.util.*;
+
+public class GoodShop {
+	public static void main(String[] args) {
+		Map<String, Integer> æ∆¿Ã≈€ = new HashMap<>();
+	}
+}

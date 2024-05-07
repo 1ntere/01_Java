@@ -1,0 +1,8 @@
+package prepropertiesEx;
+
+public class PropTest {
+	private static void fileSave(Properties p) {
+		
+
+	}
+}

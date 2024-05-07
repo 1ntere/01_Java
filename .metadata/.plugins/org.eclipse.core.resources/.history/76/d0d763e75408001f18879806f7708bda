@@ -1,0 +1,8 @@
+package com.kh.FileEx;
+//단축키 - 줄바꿈 : ctrl + shift + f
+public class FileEx {
+	public static void main(String[] args) {
+		//파일이 존재하는지 확인
+		//파일 만들고 글 작성하기
+	}
+}

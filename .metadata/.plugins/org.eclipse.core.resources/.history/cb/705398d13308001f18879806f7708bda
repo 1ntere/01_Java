@@ -1,0 +1,31 @@
+package com.kh.goodShop;
+
+import java.util.*;
+
+public class GoodShop {
+	public static void main(String[] args) {
+		Map<String, Integer> 아이템 = new HashMap<>();
+		
+		System.out.println("어서오세요. 제주에 오신 것을 환영합니다. ^^");
+		
+		//물품과 가격 추가
+		아이템.put("동백모자", 20000);
+		아이템.put("감귤모자", 15000);
+		아이템.put("흑돼지키링", 25000);
+		
+		//물품 목록 보기 Map.Entry 작성
+		//Map<String, Integer> 아이템은 key의 자료형이 String, value의 자료형이 Integer
+		//따라서 Map.Entry<String, Integer>도 key와 value의 자료형이 각각 String과 Integer로 아이템과 같아야 함
+		for (Map.Entry<String, Integer> e : 아이템.entrySet()) {
+			String	 제품 = e.getKey();//제품명만 가져옴
+			int		 가격 = e.getValue();//제품가격만 가져옴
+			System.out.println(제품 + "은(는) " + 가격 + "원 입니다.");
+		}
+		
+		//특정 물품의 가격보기
+		System.out.println("저기요~! 이거 얼마인가요~!");
+		String 제품명 = "오미자볼펜";
+		
+		
+	}
+}

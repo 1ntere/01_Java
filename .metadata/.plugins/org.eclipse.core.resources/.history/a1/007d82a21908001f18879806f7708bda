@@ -1,0 +1,27 @@
+package com.kh.collectionEx;
+
+import java.util.Set;
+import java.util.HashSet;
+
+public class SetPre {
+	public static void main(String[] args) {
+		//set의 경우 인터페이스이기 때문에
+		//단독으로 사용하지 못 함
+		//└ Set 셋 = new Set<>(); => 불가능
+		//└ Set 셋 = new HashSet<>(); => 가능
+		
+		Set 셋1 = new HashSet<>();
+		
+		셋1.add("사과");
+		셋1.add("바나나");
+		셋1.add("오렌지");
+		
+		System.out.println("해시셋 : "+셋1);
+		
+		Set<Integer> 셋2 = new TreeSet<>();
+		
+		셋2.add(5);
+		셋2.add(2);
+		셋2.add(8);
+	}
+}

@@ -1,0 +1,8 @@
+package com.kh.datePre;
+
+public class datePre3 {
+	public static void main(String[] args) {
+		Date now = new Date();
+		
+	}
+}

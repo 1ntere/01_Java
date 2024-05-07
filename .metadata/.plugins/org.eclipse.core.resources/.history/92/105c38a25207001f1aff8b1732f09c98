@@ -1,0 +1,6 @@
+package dom.kh.test.main.oop;
+
+//Animal = 동물, 인터페이스로 만들 예쩡
+public interface Animal {
+
+}

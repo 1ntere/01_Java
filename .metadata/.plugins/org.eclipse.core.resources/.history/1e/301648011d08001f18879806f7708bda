@@ -1,0 +1,9 @@
+package com.kh.test.main;
+
+//ArrayList와 HashSet 함께 사용하기
+public class ListSetEx {
+	public static void main(String[] args) {
+		ArryaList<String> 리스트 = new ArrayList<>();
+		
+	}
+}

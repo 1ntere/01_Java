@@ -1,0 +1,32 @@
+package com.kh.test.main;
+
+public class ParseStringPre2 {
+	public static void main(String[] args) {
+		//1. String으로 받은 핸드폰번호를 정수로 변환
+		String phoneNumber = "01012345678";
+		int num1 = Integer.parseInt(phoneNumber);
+		System.out.println(num1);//1012345678
+			//정수는 맨 앞에 0을 자동으로 제거시킨 후 진행
+		
+		//2. String으로 받은 점수를 실수로 변환
+		String score = "88.9";
+		double num2 = Double.parseDouble(score);
+		System.out.println(num2);//88.9
+		
+		//3. 정수로 받은 핸드폰번호를 String으로 변환
+		int phoneNumber2 = 1023456789;
+			//정수는 맨 앞에 0을 자동으로 제거시킨 후 진행
+		String str1 = Integer.toString(phoneNumber2);
+		System.out.println(phoneNumber2);//1023456789
+		
+		//4. 실수로 받은 점수를 String으로 변환
+		double score2 = 72.5;
+		String str2 = Double.toString(score2);
+		System.out.println(score2);//72.5
+		
+		//문자열에서 - 하이픈 제거
+		String phoneNumber3 = "010-1234-5678";
+		String 하이픈제거 = phoneNumber3.replace("-", "");
+
+	}
+}

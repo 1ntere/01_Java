@@ -1,0 +1,13 @@
+package ncs.test13;
+
+import java.util.Date;
+
+public class Inventory {
+//필드 전역변수
+	private String productName;//제품명
+	private Date putDate;//입고
+	private Date getDate;//출고
+	private int putAmount;//입고양
+	private int getAmount;//출고양
+	private int inventoryAmount;//남은갯수
+}

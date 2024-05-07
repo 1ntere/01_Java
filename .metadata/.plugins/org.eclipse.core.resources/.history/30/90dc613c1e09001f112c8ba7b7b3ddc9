@@ -1,0 +1,14 @@
+package prepropertiesEx;
+
+import java.util.Properties;
+
+public class PropTest {
+	private static void fileSave(Properties p) {
+		//Properties에 XML 파일로 내용 저장하기
+		
+		p.setProperty("1", "패밀리맨,4,2000");
+		p.setProperty("2", "패밀리맨,5,2023");
+		p.setProperty("3", "패밀리맨,5,2023");
+		
+	}
+}

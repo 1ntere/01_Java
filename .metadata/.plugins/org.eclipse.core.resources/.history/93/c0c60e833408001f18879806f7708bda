@@ -1,0 +1,7 @@
+package com.kh.goodShop;
+
+public class 컴퓨터가게 {
+	public static void main(String[] args) {
+		
+	}
+}

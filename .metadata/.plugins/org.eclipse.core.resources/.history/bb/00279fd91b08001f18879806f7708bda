@@ -1,0 +1,10 @@
+package com.kh.collectionEx;
+
+public class MapPre {
+	public static void main(String[] args) {
+		//Map 또한 Set과 마찬가지로 인터페이스 이기 때문에
+		//인스턴스 느낌으로 사용하려면
+		//Map<String, Integer> map = new HashMap<>();과 같이 사용해야 함
+		
+	}
+}

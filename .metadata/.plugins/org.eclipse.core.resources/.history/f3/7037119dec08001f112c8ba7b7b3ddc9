@@ -1,0 +1,10 @@
+package com.kh.datePre;
+
+import java.util.Date;
+
+public class DatePre {
+	public static void main(String[] args) {
+		//현재 날짜오 ㅏ시간
+		Date now = new Date();
+	}
+}

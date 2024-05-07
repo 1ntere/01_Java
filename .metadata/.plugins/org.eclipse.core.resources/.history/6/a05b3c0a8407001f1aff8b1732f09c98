@@ -1,0 +1,11 @@
+package ncs.test4;
+
+public class Product {
+//필드
+	
+//메서드
+	//생성자 (기본)
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+}

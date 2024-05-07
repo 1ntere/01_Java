@@ -1,0 +1,9 @@
+package dom.kh.test.main.oop;
+
+//동물 하나만 상속 implements Animal
+	//interface를 상속받는 경우 Animal 이외에도 , 를 사용해서 여러 파일을 상속받을 수 있음
+//동물에서 소리를 만드는 makeSound가 재사용되고 있지 않기 때문에
+//강아지에서는 빨간 줄이 나옴
+public class Dog implements Animal{
+	
+}
